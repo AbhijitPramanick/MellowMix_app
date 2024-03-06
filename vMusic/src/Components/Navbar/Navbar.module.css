@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.headerContainer {
+  width: 100%;
+  min-height: 10vh;
+  height: fit-content;
+  display: flex;
+  padding-inline: 5%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+.logo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.mid {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+}
+.right {
+  height: 100%;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.right ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+  list-style: none;
+}
+.right ul li {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
