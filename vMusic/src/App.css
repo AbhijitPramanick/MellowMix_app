@@ -7,6 +7,12 @@ body,
 #root {
   width: 100vw;
   overflow-x: hidden;
+  background: url("/images/backgn_img.jpg");
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .masterAppContainer {
   min-height: 100%;
